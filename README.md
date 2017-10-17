@@ -11,3 +11,6 @@ yet, and ten buttons for sample triggering. (Pd recognizes the
 controller as two different controllers if you have a keyboard plugged
 into the MIDI IN, so set it up accordingly in your MIDI settings
 
+am sweep with midi control - messing around with amplitude modulation.
+phasor~ modulates osc~. there's also a delay with adjustable feedback.
+i really need to add adsr to this...
