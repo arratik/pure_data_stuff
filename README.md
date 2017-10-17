@@ -12,6 +12,4 @@ controller as two different controllers if you have a keyboard plugged
 into the MIDI IN, so set it up accordingly in your MIDI settings
 
 am sweep with midi control - messing around with amplitude modulation.
-phasor~ modulates osc~. there's also a delay with adjustable feedback.
-it's set up for my controller - change the ctlin argument to whatever you
-need to for yours. i really need to add adsr to this...
+phasor~ modulates osc~. i really need to add adsr to this...
