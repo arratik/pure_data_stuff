@@ -6,7 +6,7 @@ replicating a section of steve reich's piano phase. i use loopbe1
 to route midi from pd to ableton all the time. it's fun!
 
 ev-xs_map - this is a map of my Evolution X-Session MIDI controller.
-This could be useful for anyone who has one of these things wants
+This could be useful for anyone who has one of these things and wants
 sixteen knobs, a slider that I haven't gotten to work as a crossfader
 yet, and ten buttons for sample triggering. (Pd recognizes the
 controller as two different controllers if you have a keyboard plugged
