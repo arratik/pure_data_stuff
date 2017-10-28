@@ -31,3 +31,7 @@ and here i am tonight, thinking "hmm, what would happen if i put this
 am synth at the end of this... well, damn!" so this is the beginning of
 an insane project where more will be added, I'm sure... oh yeah, you'll
 need to install zexy and cyclone (i think) for this to work,.
+
+effects wrapper with signal bypass - useful for modular abstractions, and
+especially useful for guitarists. based on the main patch abstraction
+from the guitar extended blog
