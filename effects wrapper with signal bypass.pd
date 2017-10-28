@@ -1,0 +1,38 @@
+#N canvas 1123 148 440 234 10;
+#X obj 70 18 inlet~;
+#X obj 122 18 inlet;
+#X obj 70 106 *~;
+#X obj 104 106 *~;
+#X obj 88 84 line~;
+#X obj 88 62 pack 0 10;
+#X obj 88 40 expr 1-$f1;
+#X obj 165 84 line~;
+#X obj 165 62 pack 0 10;
+#X obj 70 150 outlet~;
+#N canvas 1471 189 332 155 effectguts 1;
+#X obj 22 8 inlet~;
+#X obj 218 9 inlet;
+#X obj 22 118 outlet~;
+#X obj 218 31 switch~;
+#X text 41 57 the effect goes here;
+#X text 203 50 this turns dsp on or off for this window;
+#X connect 0 0 2 0;
+#X connect 1 0 3 0;
+#X restore 104 128 pd effectguts;
+#X text 173 12 stompbox style effect switch with bypass;
+#X text 9 176 this is basically a wrapper window with true signal bypass.
+put the effect itself in another subpatch with at least one signal
+inlet and one control inlet for a toggle;
+#X connect 0 0 2 0;
+#X connect 0 0 3 0;
+#X connect 1 0 6 0;
+#X connect 1 0 8 0;
+#X connect 1 0 10 1;
+#X connect 2 0 9 0;
+#X connect 3 0 10 0;
+#X connect 4 0 2 1;
+#X connect 5 0 4 0;
+#X connect 6 0 5 0;
+#X connect 7 0 3 1;
+#X connect 8 0 7 0;
+#X connect 10 0 9 0;
