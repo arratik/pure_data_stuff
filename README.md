@@ -35,3 +35,6 @@ need to install zexy and cyclone (i think) for this to work,.
 effects wrapper with signal bypass - useful for modular abstractions, and
 especially useful for guitarists. based on the main patch abstraction
 from the guitar extended blog
+
+dataplayer - this uses the soundfiler object to open _any_ file and play it
+as sound. sometimes this sounds awesome. sometimes not. your mileage may vary.
