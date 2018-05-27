@@ -40,3 +40,8 @@ dataplayer - this uses the soundfiler object to open _any_ file and play it
 as sound. sometimes this sounds awesome. sometimes not. your mileage may vary.
 
 greenwood - yep. it's exactly what you think it is.
+
+ontherun - i threw this together rather haphazardly to demo my raspberry
+pi-based pure data box. two wavetable oscillators (sine/square/saw/tri/random
+voices) and a vcf~ playing the 8-note sequence from pink floyd's "on the run"
+at 90 ms/note, or 666 bpm. spooooky!
