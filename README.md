@@ -45,3 +45,7 @@ ontherun - i threw this together rather haphazardly to demo my raspberry
 pi-based pure data box. two wavetable oscillators (sine/square/saw/tri/random
 voices) and a vcf~ playing the 8-note sequence from pink floyd's "on the run"
 at 90 ms/note, or 666 bpm. spooooky!
+
+aphex twin logo in comments - i'm saving this just in case i do something in pd
+that sounds really awesome and my sidekick keeps saying "APHEX TWIN ALREADY DID
+IT!"
