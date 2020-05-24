@@ -49,3 +49,8 @@ at 90 ms/note, or 666 bpm. spooooky!
 aphex twin logo in comments - i'm saving this just in case i do something in pd
 that sounds really awesome and my sidekick keeps saying "APHEX TWIN ALREADY DID
 IT!"
+
+drunk filtersweeps - a simple example of sending the output of a random walk up and
+down the number line to MIDI CC using ctlout. in this example i have two drunk objects
+sending data to CC numbers 3 and 9, which i had mapped to an ableton auto filter
+effect.
