@@ -58,7 +58,7 @@ effect.
 31 C chords - a compositional/educational tool for people like me who can't play
 keyboards worth a shit and want to know what a C6/9 or Cm7b5 chord sounds like. MIDI
 notes are packed in an organized display of messages, each with its own bang for
-previewing. All the heavy lifting is done in subpatches; controls for note velocity,
+previewing. all the heavy lifting is done in subpatches; controls for note velocity,
 note duration, and key transposition are in the main patch. (note: this only outputs
 MIDI, not audio. you'll need some way to send MIDI from your PC to a synth or a DAW.
 on windows i use loopbe1 -> ableton.)
