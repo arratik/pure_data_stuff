@@ -491,7 +491,7 @@
 :: 7=G :: 8=G#/Ab :: 9=A :: 10=A#/Bb :: 11=B :: 12=C (1 oct);
 #X text 547 504 13=C#/Db :: 14=D :: 15=D#/Eb :: 16=E :: 17=F :: 18=F#/Gb
 :: 19=G :: 20=G#/Ab :: 21=A :: 22=A#/Bb :: 23=B :: 24=C (2 oct);
-#X floatatom 66 504 5 0 24 2 VELOCITY - velocity;
+#X floatatom 66 504 5 0 127 2 VELOCITY - velocity;
 #X floatatom 286 504 5 0 10000 2 DURATION - duration;
 #X text 110 502 DEFAULT VALUE - 127 (MAX);
 #X text 330 502 DEFAULT VALUE - 1000ms;
