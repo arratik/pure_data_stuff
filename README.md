@@ -62,3 +62,11 @@ previewing. all the heavy lifting is done in subpatches; controls for note veloc
 note duration, and key transposition are in the main patch. (note: this only outputs
 MIDI, not audio. you'll need some way to send MIDI from your PC to a synth or a DAW.
 on windows i use loopbe1 -> ableton.)
+
+masterclock - this is a cleaned-up version of an abstraction i've been using in some
+algorithmic MIDI projects i've been working on. it's a fairly straightforward clock
+divider-based "multi-channel metro" that outputs bangs on whole, half, quarter, eighth,
+and sixteenth notes (the expr object actually runs on thirtysecond notes, but that
+was too fast for what i was using it for - just run another patch cable from the counter
+output without a select for 32nds). lately i've been using pd to control a small eurorack
+setup, so i added a MIDI beat clock to this.
