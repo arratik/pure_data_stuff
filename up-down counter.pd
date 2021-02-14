@@ -1,0 +1,24 @@
+#N canvas 545 81 324 227 10;
+#X obj 31 68 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X obj 31 93 metro 100;
+#X obj 31 119 f;
+#X obj 99 93 sel 0 127;
+#X msg 99 119 1;
+#X msg 135 119 -1;
+#X floatatom 31 145 5 0 0 0 - - -;
+#X obj 64 119 + 1;
+#X text 29 26 UP-DOWN COUNTER;
+#X text 29 36 Works well for parameter sweeps;
+#X text 30 175 www.formeryugoslavia.org;
+#X text 30 185 "take this \, brother. may it serve you well.";
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 6 0;
+#X connect 2 0 7 0;
+#X connect 3 0 4 0;
+#X connect 3 1 5 0;
+#X connect 4 0 7 1;
+#X connect 5 0 7 1;
+#X connect 6 0 3 0;
+#X connect 7 0 2 1;
