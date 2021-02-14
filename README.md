@@ -70,3 +70,7 @@ and sixteenth notes (the expr object actually runs on thirtysecond notes, but th
 was too fast for what i was using it for - just run another patch cable from the counter
 output without a select for 32nds). lately i've been using pd to control a small eurorack
 setup, so i added a MIDI beat clock to this.
+
+up-down counter - a simple float counter that starts at 0, and counts backwards to 0 once
+it reaches an upper limit. useful for parameter sweeps in DAWs. i use a couple of these at
+different metro speeds to sweep a filter module in my eurorack.
