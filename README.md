@@ -82,4 +82,5 @@ peeked inside automatonism's trigger sequencer module, said "so that's how this 
 and went from there. lots of spigots are involved. adjustable bpm with built-in MIDI
 clock for syncing with a DAW. user can randomize and clear each or all of the grid rows
 with the click of a bang object. eight presets are included. i dunno; i think this is
-an easier method of drum rack programming. i hate the ableton piano roll.
+an easier method of drum rack programming. i hate the ableton piano roll. (this patch
+uses a "counter" object, so you'll need the cyclone library for it to work.)
