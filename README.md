@@ -74,3 +74,12 @@ setup, so i added a MIDI beat clock to this.
 up-down counter - a simple float counter that starts at 0, and counts backwards to 0 once
 it reaches an upper limit. useful for parameter sweeps in DAWs. i use a couple of these at
 different metro speeds to sweep a filter module in my eurorack.
+
+drum grid - this is a 16-step MIDI drum sequencer. in its current state it's designed to
+work with an ableton drum rack set on MIDI channel 1, and triggers kick, snare, closed hat
+and open hat. i wasn't sure how to go about doing something like this at first, so i
+peeked inside automatonism's trigger sequencer module, said "so that's how this works!"
+and went from there. lots of spigots are involved. adjustable bpm with built-in MIDI
+clock for syncing with a DAW. user can randomize and clear each or all of the grid rows
+with the click of a bang object. eight presets are included. i dunno; i think this is
+an easier method of drum rack programming. i hate the ableton piano roll.
