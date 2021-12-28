@@ -84,3 +84,6 @@ clock for syncing with a DAW. user can randomize and clear each or all of the gr
 with the click of a bang object. eight presets are included. i dunno; i think this is
 an easier method of drum rack programming. i hate the ableton piano roll. (this patch
 uses a "counter" object, so you'll need the cyclone library for it to work.)
+
+drum grid dsp - same idea, but with synthesized drum sounds and the ability to record
+a single 16-step sequence to an audio file that can be imported into a DAW or sampler.
