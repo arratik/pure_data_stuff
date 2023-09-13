@@ -87,3 +87,11 @@ uses a "counter" object, so you'll need the cyclone library for it to work.)
 
 drum grid dsp - same idea, but with synthesized drum sounds and the ability to record
 a single 16-step sequence to an audio file that can be imported into a DAW or sampler.
+
+triad progression generator v1.0 - this generates random 8-chord progressions in your choice
+of 10 different modes/scales. i use this when i'm staring blankly at ableton not knowing
+where to start. c is the starting point, and you can transpose the output to higher or lower
+keys. i have a newer version of this patch in beta that corrects this limitation, but the
+chord name/number is always displayed in the symbol box as being in c. that will come soon.
+this can be used with external synths or any DAW using a virtual MIDI driver (i use LoopBe1).
+just record the MIDI output when you hear something cool and there you go.
